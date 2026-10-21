@@ -1,0 +1,2 @@
+# watame-launcher
+yes
