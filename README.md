@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # THIS IS THE WINDOWS VERSION, LINUX ONE COMING SOON!
 
 # EPIK17 Launcher
@@ -49,3 +50,7 @@ Hey, this is a simple Rust app that helps you launch games on EPIK17. It keeps i
 - Check the console for error messages.
 
 Anything that is needed for the setup is gonna be added here if needed
+=======
+# watame-launcher
+yes
+>>>>>>> 28294d42aa7b91a6ea9ab2c43cdf6a11c716f61c
