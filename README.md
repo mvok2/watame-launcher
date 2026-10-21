@@ -1,14 +1,14 @@
 <<<<<<< HEAD
 # THIS IS THE WINDOWS VERSION, LINUX ONE COMING SOON!
 
-# EPIK17 Launcher
+# KAIZEN Launcher
 
-Hey, this is a simple Rust app that helps you launch games on EPIK17. It keeps itself and the game client updated, sets up a way to open games from links, and gets you playing quickly.
+Hey, this is a simple Rust app that helps you launch games on KAIZEN. It keeps itself and the game client updated, sets up a way to open games from links, and gets you playing quickly.
 
 ## What It Does
 
 - **Stays Up to Date**: Downloads new versions of itself if there's an update.
-- **Updates the Game**: Grabs the latest EPIK17 client (the player app) when needed.
+- **Updates the Game**: Grabs the latest KAIZEN client (the player app) when needed.
 - **Launches Games**: Starts the game with the right settings from those links.
 - Works on Windows (uses the registry for link stuff).
 
@@ -20,29 +20,25 @@ Hey, this is a simple Rust app that helps you launch games on EPIK17. It keeps i
 ## How to Build It
 
 1. Get the code (clone or download).
-
-2. Open a terminal and go to the folder:
-   ```
-   cd EPIK17-Launcher
    ```
 
-3. Build it:
+2. Build it:
    ```
    cargo build --release
    ```
 
-4. Find the app at `target/release/EPIK17LauncherBeta.exe`.
+3. Find the app at `target/release/WatameLauncherBeta.exe`.
 
 ## How to Use It
 
 - Just run the exe. It'll check for updates and set things up.
-- For playing: Click a link like `epik17:play+gameid:123+ticket:abc123` – it opens the game for you.
+- For playing: Click a link like `watame:play+gameid:123+ticket:abc123` – it opens the game for you.
 - No link? It just does the update checks.
 
 ## Quick Notes
 
-- Files go in your `%APPDATA%\EPIK17\` folder.
-- Game stuff in `%APPDATA%\EPIK17\Client\`.
+- Files go in your `%APPDATA%\WATAME\` folder.
+- Game stuff in `%APPDATA%\WATAME\Client\`.
 
 ## If Something Goes Wrong
 
