@@ -1,7 +1,13 @@
 fn main() {
-    if std::env::var("CARGO_CFG_TARGET_OS").unwrap() == "windows" {
+    #[cfg(windows)]
+    {
         let mut res = winres::WindowsResource::new();
-        res.set_manifest_file("app.manifest");
-        res.compile().unwrap();
+        if std::path::Path::new("epik.ico").exists() {
+            res.set_icon("epik.ico");
+        }
+        res.set("ProductName", "Kaizen Launcher");
+        res.set("FileDescription", "Kaizen Launcher");
+        res.set("LegalCopyright", "");
+        let _ = res.compile();
     }
 }
